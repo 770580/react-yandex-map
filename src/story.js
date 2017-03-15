@@ -13,8 +13,8 @@ import {
 	GeoObjectCollection
 } from './index';
 
-import 'normalize.css';
-import 'Layout/styles.css';
+// import 'normalize.css';
+// import 'Layout/styles.css';
 
 storiesOf('YandexMap', module)
 	.add('default', () => (

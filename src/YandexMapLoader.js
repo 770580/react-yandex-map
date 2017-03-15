@@ -6,7 +6,7 @@ import React, { PropTypes } from 'react';
 
 import YandexMapInit from './YandexMapInit';
 
-import Preloader from '../Preloader';
+// import Preloader from '../Preloader';
 
 export default
 class YandexMapLoader extends React.Component {
@@ -23,7 +23,8 @@ class YandexMapLoader extends React.Component {
 	};
 
 	state = {
-		children: (<Preloader size={100} position='absolute' />),
+	//	children: (<Preloader size={100} position='absolute' />),
+		children: (<div></div>),
 		ymaps: null
 	};
 
